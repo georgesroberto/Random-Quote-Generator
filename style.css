@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+
+}
+
+header, footer{
+    text-align: center;
+    background-color: rgb(117, 172, 221);
+    color: aliceblue;
+    font-weight: bolder;
+    width: 100%;
+    margin: 2px;
+}
+
+footer {
+    width: 40%;
+    margin: 5px;
+    align-items: center;
+}
+
+.quote-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+
+}
