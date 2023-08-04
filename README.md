@@ -1,2 +1,5 @@
 # Random-Quote-Generator
-First React Project
+
+A Simple Quote Generator
+
+
