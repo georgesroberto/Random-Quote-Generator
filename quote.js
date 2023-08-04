@@ -1,12 +1,14 @@
 document.addEventListener('DOMContentLoaded', () => {
+    
     const main = document.getElementById("main"); // Get the element with id="main" (quote container)
-    const fetchQuotesBtn = document.getElementById("fetchQuotesBtn"); // Get the "Fetch Quotes" button
 
     // Attach event listener to the "Fetch Quotes" button
 
     document.getElementById("fetchQuotesBtn").addEventListener("click", () => {
-        console.log("Button clicked!"); // Check if the button click event is being triggered
+        // Call the function to fetch new quotes when the button is clicked
+        getQuotes(APIURL, API_KEY);
     });
+    
     
 
 

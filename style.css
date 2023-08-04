@@ -6,24 +6,18 @@
 body{
     display: flex;
     flex-direction: column;
-    padding: 0.5rem;
-
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 8rem;
 }
 
-header, footer{
-    text-align: center;
+header{
     background-color: rgb(117, 172, 221);
     color: aliceblue;
     font-weight: bolder;
-    width: 100%;
-    margin: 2px;
-}
-
-
-footer {
-    width: 40%;
-    margin: 5px;
-    align-items: center;
+    letter-spacing: 2px;
+    width: unset;
 }
 
 .quote-box{
@@ -32,6 +26,19 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
-
+    background-color: beige;
+    border-radius: 6px;
+    padding: 1.2rem;
 }
+
+.socials {
+    display: flex;
+    align-self: flex-start;
+}
+
+/* Style for the button */
+#fetchQuotesBtn {
+    margin-top: 10px;
+    align-self: flex-end;
+}
+
