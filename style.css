@@ -19,6 +19,7 @@ header, footer{
     margin: 2px;
 }
 
+
 footer {
     width: 40%;
     margin: 5px;
@@ -27,6 +28,7 @@ footer {
 
 .quote-box{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
