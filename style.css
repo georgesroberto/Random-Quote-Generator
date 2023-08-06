@@ -36,7 +36,6 @@ header{
     align-self: flex-start;
 }
 
-/* Style for the button */
 #fetchQuotesBtn {
     margin-top: 10px;
     align-self: flex-end;
