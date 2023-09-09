@@ -1,0 +1,10 @@
+{
+  
+  "dependencies": {
+    "sass": "^1.66.1"
+  },
+  "scripts": {
+    "sass:watch": "sass --watch input.scss:output.css"
+  }
+  
+}
