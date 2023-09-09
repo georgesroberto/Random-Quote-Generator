@@ -1,0 +1,13 @@
+
+$primary-bg-color: #1e63ca;
+$secondary-bg-color: #562546;
+$button-text-color: white;
+
+body {
+  background-color: $primary-bg-color;
+  color: $button-text-color;
+
+  .button {
+    background-color: $secondary-bg-color;
+  }
+}
